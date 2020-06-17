@@ -5,10 +5,10 @@ import mysql.connector # MySQL
 # DB接続
 def data_registration_single(self):
     connection = mysql.connector.connect(
-        user = 'kasumidyaya'
-        password = 'root'
-        host = 'localhost'
-        database = 'comment_list'
+        user = 'kasumidyaya',
+        password = 'root',
+        host = 'localhost',
+        database = 'comment_list',
         charset = 'utf8'
     )
     cursor = connection.cursor()
